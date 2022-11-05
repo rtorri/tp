@@ -1,0 +1,70 @@
+*{
+    margin: 10;
+    padding: 10;
+    
+    border: 3px chocolate solid;
+    
+        
+    
+    }
+
+    head{ 
+        
+    
+    }
+    
+h1{
+    text-align: center ;
+    border: 4px cyan solid;
+    max-width: none;
+    margin:  55px;
+    background-image: url(img/avena.jpg);
+    font-size: xxx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;    
+}
+
+section{
+    background-image: url(/img/dibujo_a.jpg);
+    height: 200px;
+    width:auto
+       
+    
+
+}
+
+
+body {
+    border: 3px rgb(252, 181, 181) solid;
+    min-height: 50px;
+    margin: 0.5rem;
+}
+
+
+    
+
+ div{
+   border: 40px blue solid;   
+   letter-spacing: normal;
+   line-height: normal;
+   text-size-adjust: 80%;
+
+}
+
+h3{ 
+    font-size:x-large;
+    position: static;
+    
+}
+
+
+footer{
+    /* traer de html index*/
+    
+}
+
+
+
+/*{
+    
+    }/*
+    

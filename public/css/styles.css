@@ -10,7 +10,29 @@ head{
     background-color: blue;
 }
 
-/* body */
 
 
+     /* body */
+ 
+    h1{
+        text-align: center ;
+        border: 4px cyan solid;
+        max-width: none;
+        margin:  55px;
+        background-image: url(img/fondo1.jpg);
+        
+        
+    
+    
+    section{
+        background-image: url(/img/fondo1jpg);
+        height: 200px;
+        width:auto
+           
+        
+    
+    }
+
+   }
+   
 /* footer */
