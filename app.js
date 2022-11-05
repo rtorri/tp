@@ -1,10 +1,10 @@
-const express = require("express");
+const express = require('express');
 const app =  express();
-const path= require ("path");//une directorios
+const path= require ('express path');//une directorios
 
 app.use(express.static (path.resolve(__dirname, "public")))
 
-app.get("/",(_req, res) {
+app.get('/',(req, res) => {
         res.sendFile(path.resolve(__dirname, "views/index.html"));
     });
 
