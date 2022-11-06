@@ -8,12 +8,9 @@
     
     }
 
-    head{ 
-        
+
     
-    }
-    
-h1{
+h1{/*titulo*/
     text-align: center ;
     border: 4px cyan solid;
     max-width: none;
