@@ -21,10 +21,11 @@ h1{
     
 }
 section{
-    background-image: url(img/image.jpg);
+    background-color: chartreuse;
     height: 200px;
-    width:auto
-       
+    width: 100%;
+    padding-block-end: 100%;
+    margin-bottom: 100%;
 
 }
      /* body */
@@ -54,6 +55,12 @@ section{
     }
     
    
+    fácil{
+        padding-block-end: 100%;
+        margin-bottom: 100%;
+        background: greenyellow);
+        width: 100%;
+    }
 
    
 /* footer */
@@ -62,7 +69,7 @@ footer{
     
     padding-block-end: 100%;
     margin-bottom: 100%;
-
+s
     background-color: black;
     width: 100%;
 }
