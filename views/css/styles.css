@@ -1,45 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0px blue;
-    
-}
 
-
-/*media queries */
+/* media queries
 @media only screen and (max-width: 600px){
      
 }
-@media only screen and (min-width:  )
+@media only screen and (min-width:800px  ) */
 /* header */
 
+/* header{
+  margin: 10% 20%;
+}
 
+
+ */
+
+/*NAbar*/
+/* <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
 h1, h2{ /* recetad faciles y tipo de recetas*/
-    text-align: center ;
+    /* text-align: center ;
     /*border: 4px rgb(255, 134, 4) solid;*/
-    max-width: none;
+    /* max-width: none;
     margin:  px;
     background-image: url(img/image.jpg);
     border: 0;
     font-size: xxx-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;    
-    
-}
+     */
+} */ */
+
+
 
      /* body */
  
     
-      body {
+      /* body {
         border: 0px rgb(252, 181, 181) solid;
         min-height: 0px;
         /* margin: 0.5rem; */
-    }
+    
      
     
         
     
-     div{
+     /* div{
           
        letter-spacing: normal;
        line-height: normal;
@@ -51,31 +54,56 @@ h1, h2{ /* recetad faciles y tipo de recetas*/
         font-size:x-large;
         position: static;
         
-    }
+    } */
     
-   
-    fácil{
+/*    
+    div.fácil{
         /* padding-block-end: 100%; */
-        margin-bottom: 100%;
-        background: greenyellow);
+        /* margin-bottom: 100%;
+        background: rgb(255, 255, 255));
         width: 100%;
         display: inline-block;
-    }
+        margin: 3% */
+      } */
+/* 
+      div.intermedio{
+        /* padding-block-end: 100%; */
+        /* margin-bottom: 100%;
+        background: rgb(255, 255, 255));
+        width: 100%;
+        display: inline-block;
+        margin: 3%
+        float: right; */
+     */
 
-
-    main{
+      /* div.desafiante{
+        /* padding-block-end: 100%; */
+        /* margin-bottom: 100%;
+        background: rgb(255, 255, 255));
+        width: 100%;
+        display: inline-block;
+        margin: 3%
+      } */ */
+    /* main{
         section{
             background-color: chartreuse;
             height: 200px;
             /* width: 1500px; */
-            padding-block-end: 100%;
-            margin-bottom: 100%;
+            /* padding-block-end: 100%;
+            margin-bottom: 100%; */
         
-        }
-    }
-   
+        
+    
+
+   /* .a{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+   }
+    */
+
 /* footer */
-footer{
+/* footer{
     
     
     padding-block-end: 100%;
@@ -83,4 +111,43 @@ footer{
 
     background-color: black;
     width: 100%;
+} */ */
+
+.logo{
+  /* background: #764200a3; */
+  width: 1200px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
+
+
+/* body */
+.avena {
+  background-color: brown; 
+  padding: 5%;
+  width: 100%;
+}
+
+.boton_vermas1 .boton_vermas2 .boton_vermas3{
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+  padding: 20px; /*espacio alrededor texto*/
+  background-color: #afff0e; /*color botón*/
+  /* color: #ffffff; color texto */
+  text-decoration: none; /*decoración texto*/
+  /* text-transform: uppercase; capitalización texto */
+  font-family: cursive; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  text-align: center;
+  color: white
+  }
+  
+
+ .intermedio{
+    
+    height: 300px;
+    background: #2e518b;
+    width: 100%;
+    display: inline-block;
+     margin: 3% 
+  }

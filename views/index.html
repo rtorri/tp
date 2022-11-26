@@ -5,26 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
-    <!--para que no deforme la imagen-->
-    <style type="text/css">
+
     
-         img{width: 400px; height: 300px; object-fit: cover;} 
-      </style>
+    <title>Cooking</title>
+ 
 </head>
 
+
+
+<header>
+
+        <div class="logo">
+          <img src="img/logotipo-tp.jpg" alt="Logo"/>
+       </div>
+
+
+  <div>
+      <input class="buscador" type="text" placeholder="Buscar productos">
+  </div>
+  
+ <div>
+   <button class="login">Ingresar</button><img class ="login_imagen" src="images/" alt="login">
+   <a class="loginbutton" href="/login"></a>
+ </div> 
+ 
+ 
+ 
+
+</header>
+
 <body>
-   <header>
-
-      <!--HEADER-->
-        <section class="public/img/image.jpg">
-           <h1 style="font-size: 10vw;">      Recetas fáciles        </h1>
-      
-        </section> 
-   </header>
+   
 
 
-        
+        <!-- Parte prueba nav -->
+
+           <!-- <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style> -->
+    <!-- Custom styles for this template -->
+    <link href="navbar-top.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <a class="navbar-brand" href="#">Top navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline mt-2 mt-md-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<main role="main" class="container">
+  <!--Recetas asi /*<div class="jumbotron">
+    <h1>Navbar example</h1>
+    <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
+    <a class="btn btn-lg btn-primary" href="../components/navbar/" role="button">View navbar docs &raquo;</a>
+  </div> 
+  -->
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        </nav>
     
       
 
@@ -38,52 +108,53 @@
 
 <!--receta s-->
    
-    <div class="contenedor">
-        <h2>Tipos de recetas:</h2>
-         
-        <br>
-        <br>
-        <section> 
-              <!-- dificultad1  AVENA-->
-              <!--imagen!!-->
-                 <div class ="fácil" style="background: greenyellow; width: 100%;"> <a title="Galletitas de Avena" href="recetas/avena.html"> <img src="img/avena.jpg" alt="Galletitas de Avena" ><p>nivel de dificultad: facil</p></a>
-                 </div>
-              <!--Texto -->
+
+
+  <div class="contenedor">
+        
+         <section class= "avena">
+               
+          <h1>Nivel de dificultad: Fácil</h1>
+          <a title="Galletitas de Avena" > <img src="img/avena.jpg" alt="Galletitas de Avena" ></a>
                  
-            
-           <!--fin de Avena -->
 
-            
-            
+          <div class="boton_vermas1">
+           <a href="recetas/avena.html" target="_blank" style="boton_vermas">Ver más</a>
+          </div>
+        
+         </section>  <!--avena -->
 
-        </section>
+
+        
+
+      <section class="intermedio"> 
+          <h1>Nivel de dificultad: Intermedio</h1>
+          <a title="brownie con helado" > <img src="img/helado.jpg" alt="Brownie con helado" ></a>
+     
+          <div class="boton_vermas2">
+            <a href="recetas/brownie.html" target="_blank" style="boton_vermas">Ver más</a>
+           </div>
+         
+       </section> 
 
 
-        <section class="intermedio"> 
-           <div></div>
-             <!--dificultal2 Brownie con Helado--> 
-           
-                <h1>Nivel de dificultad: intermedio</h1>
 
-                <img src="img/helado.jpg">
-    
-                
-            <!----</article>
-            <p>n </p>
-            <img 
-            class="imagenes"  align="left">Texto tan extenso como queramos que cubrirá la parte derecha de la imagen. Sigo poniendo texto para que se vea el efecto, Bla bla bla bla bla bla bla... 
-            </p>--->
-        </div>
-        <p> 
-            
 
-        <section class="desafiante"> 
 
-              <!--dificultad 3-->
-              <div class ="imagenes"> <a title="Trufas" href="recetas/trufas.html"> <img src="img/trufas.jpg" alt="Trufas" ></a>
-               <p><img class="imagenes" >  Nivel de dificultad:desafiante</p>
-                
-            </section>
+      
+      <section class="desafiante"> 
+         <h1>Nivel de dificultad: Desafiante</h1> 
+          <a title="trufas" > <img src="img/trufas.jpg" alt="Trufas" ></a>
+              
+          <div class="boton_vermas3">
+            <a href="recetas/trufas.html" target="_blank" style="boton_vermas">Ver más</a>
+           </div>
+
+      </section>
+        
+          
+       
+       
     </div>
 </main>
    
